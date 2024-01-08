@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.28",
+    "vue": "^3.2.41",
+    "vue3-highlightjs": "^1.0.5"
+  },
+  "devDependencies": {
+    "@imengyu/vue3-context-menu": "^1.1.10",
+    "@types/lodash": "^4.14.191",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "bootswatch": "^5.2.2",
+    "fzf": "^0.5.1",
+    "lodash": "^4.17.21",
+    "monaco-editor": "^0.34.1",
+    "monaco-themes": "^0.4.3",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.4",
+    "vite": "^3.2.3",
+    "vue-router": "^4.1.6",
+    "vue-tsc": "^1.0.12"
+  },
+  "imports": {
+    "@service": "src/service",
+    "@components": "src/components",
+    "@routes": "src/routes"
+  }
+}

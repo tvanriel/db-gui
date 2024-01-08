@@ -1,0 +1,9 @@
+frontend/node_modules
+
+db-gui
+app/static/*
+experiments/file.sql
+experiments/file.sql.gz
+
+frontend/src/components/monaco-editor-theme/onedark/OnedarkTextmate.tmtheme.ts
+app/frontend/static

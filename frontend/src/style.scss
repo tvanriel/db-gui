@@ -1,0 +1,155 @@
+
+
+$blue:    #61afef !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #e06c75 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #cb4b16 !default;
+$green:   #2aa198 !default;
+$teal:    hsl(162, 73%, 46%) !default;
+$cyan:    hsl(205, 69%, 49%) !default;
+
+$black:   #271f3f;
+$white:   #ffffff;
+
+$blue:    #61afef;
+$indigo:   #526ce0;
+$purple: #c678dd;
+$pink:    #dd78b3;
+$red:     #e06c75;
+$orange:   #d19a66;
+$yellow:  #e5c07b;
+$green:   #98c379;
+$teal:   #56c2a7;
+$cyan:    #56b6c2;
+
+$theme: "one-dark";
+
+$white: #fff;
+$gray-100: #b5b6b9;
+$gray-200: #97999e;
+$gray-300: #818489;
+$gray-400: #707278;
+$gray-500: #60636a;
+$gray-600: #53565d;
+$gray-700: #464a51;
+$gray-800: #3b3f47;
+$gray-900: #31353d;
+$black: #282c34;
+
+$dark: $gray-900;
+
+$body-bg: $black;
+$body-color: #ABB2BF;
+
+$secondary: $purple;
+
+$input-bg: $gray-100;
+
+
+$primary:       $blue;
+$secondary:     $purple;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$link-color: $info;
+$link-hover-color: $info;
+
+
+
+
+@import "~bootswatch/dist/solar/variables";
+$bs-table-accent-bg:            $gray-800;
+$table-bg:                    $gray-900;
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/solar/bootswatch";
+
+.nobr	{
+    white-space:nowrap;
+}
+
+
+
+.border- {
+    &blue {
+        border-color :var(--bs-blue) !important;
+        --bs-border-opacity: 1;
+    }
+    &indigo {
+        border-color :var(--bs-indigo) !important;
+        --bs-border-opacity: 1;
+    }
+    &purple {
+        border-color :var(--bs-purple) !important;
+        --bs-border-opacity: 1;
+    }
+    &pink {
+        border-color :var(--bs-pink) !important;
+        --bs-border-opacity: 1;
+    }
+    &red {
+        border-color :var(--bs-red) !important;
+        --bs-border-opacity: 1;
+    }
+    &orange {
+        border-color :var(--bs-orange) !important;
+        --bs-border-opacity: 1;
+    }
+    &yellow {
+        border-color :var(--bs-yellow) !important;
+        --bs-border-opacity: 1;
+    }
+    &green {
+        border-color :var(--bs-green) !important;
+        --bs-border-opacity: 1;
+    }
+    &teal {
+        border-color :var(--bs-teal) !important;
+        --bs-border-opacity: 1;
+    }
+    &cyan {
+        border-color :var(--bs-cyan) !important;
+        --bs-border-opacity: 1;
+    }
+}
+
+.text- {
+    &blue {
+        color :var(--bs-blue) !important;
+    }
+    &indigo {
+        color :var(--bs-indigo) !important;
+    }
+    &purple {
+        color :var(--bs-purple) !important;
+    }
+    &pink {
+        color :var(--bs-pink) !important;
+    }
+    &red {
+        color :var(--bs-red) !important;
+    }
+    &orange {
+        color :var(--bs-orange) !important;
+    }
+    &yellow {
+        color :var(--bs-yellow) !important;
+    }
+    &green {
+        color :var(--bs-green) !important;
+    }
+    &teal {
+        color :var(--bs-teal) !important;
+    }
+    &cyan {
+        color :var(--bs-cyan) !important;
+    }
+}
